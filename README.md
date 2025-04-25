@@ -40,7 +40,7 @@ The dashboard system replaces outdated analog gauges in internal combustion engi
 >  **Note**: There are three distinct dashboard files:
 > - `dashboard.ino`: Main dashboard firmware used in production.
 > - `dashboard_efficiencymeter.ino`: Used for energy efficiency visualization.
-> - `dashboard_speedometer.ino`: Displays speed and distance data.
+> - `dashboard_speedometer.ino`: Displays speedometer.
 
 ## 📘 Further Reading
 
