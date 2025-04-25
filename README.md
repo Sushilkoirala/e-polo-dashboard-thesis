@@ -1,8 +1,7 @@
-# Epolo-Dashboard
-This repository contains the complete implementation of a real-time embedded dashboard system designed for a converted electric Volkswagen Polo (E-Polo). The dashboard is built on an STM32F103 (ARM Cortex-M3) microcontroller and uses a 2.4” TFT touchscreen display for real-time monitoring of electric vehicle parameters.
-This project was developed as part of a master’s thesis in the M.Sc. High Integrity Systems program at Frankfurt University of Applied Sciences.
+# Epolo-Dashboard Overview
+The complete implementation of a real-time embedded dashboard system for a converted electric Volkswagen Polo (E-Polo) may be found in this repository. The dashboard user interface is built using the STM32F103 (an ARM Cortex-M3) microcontroller and a 2.4” TFT touchscreen display. The dashboard functions to monitor real-time electric vehicle parameters through the thesis work initiated for the M.Sc. High Integrity Systems program at Frankfurt University of Applied Sciences, which assisted in the design of this project
 
-The dashboard system replaces outdated analog gauges in internal combustion engine (ICE) vehicles converted to electric power. It features touchscreen-based user interaction, real-time data display, and integration with a simulated or live BMS (Battery Management System). An optional desktop GUI developed in Python mirrors the dashboard via serial communication for debugging and external monitoring.
+The dashboard system replaces the aging analog instrumentation of internal combustion engine (ICE) vehicles converted to electric propulsion. User interaction occurs via a touchscreen interface showcasing real-time data, while the system may integrate either a simulated or live BMS (Battery Management System). A Python-developed optional desktop GUI mirrors the dashboard through a serial link for the purposes of debugging and external monitoring.
 
 
 ## Technologies Used
@@ -25,8 +24,8 @@ The dashboard system replaces outdated analog gauges in internal combustion engi
 
 ## Notes
 
-- The communication protocol was provided by **Prof. Dr. Matthias Deegener (FraUAS)** and is documented in the `Kommunikation_App_BMS_Charger.txt` file.
-- Ensure correct pin mapping and power configuration when deploying to hardware.
+- he communication protocol is given by **Prof. Dr. Matthias Deegener (FraUAS)**  and detailed in a document named `Kommunikation_App_BMS_Charger.txt` file.
+- Check for valid pin mapping and power configuration on deployment of the hardware.
 - Python monitor requires `pygame` and `pyserial`.
 
 ## 📦 Installation & Usage
@@ -38,17 +37,17 @@ The dashboard system replaces outdated analog gauges in internal combustion engi
 `python python_serial_monitor.py`.
 
 >  **Note**: There are three distinct dashboard files:
-> - `dashboard.ino`: Main dashboard firmware used in production.
-> - `dashboard_efficiencymeter.ino`: Used for energy efficiency visualization.
-> - `dashboard_speedometer.ino`: Displays speedometer.
+> - `dashboard.ino`: The main dashboard firmware used in production.
+> - `dashboard_efficiencymeter.ino`:  for energy efficiency visualization.
+> - `dashboard_speedometer.ino`: for showing a speedometer.
 
-## 📘 Further Reading
+##  Further Reading
 
-For detailed system architecture, implementation decisions, and performance analysis, please refer to the **supporting thesis** associated with this project. A copy can be requested or accessed via the  contacting the author directly.
+Refer to the supporting thesis associated with this project for details on system architecture, implementation decisions, and performance analysis. A copy can be requested or accessed via the contacting the author directly.
 
-## 📩 Contact
+## Contact
 
-For questions, collaboration, or thesis access, feel free to contact:
+Questions and discussions, as well as requests for thesis access, are welcome.
 
 **Sushil Koirala**  
-📧 [sushil.koirala@stud.fra-uas.de](mailto:sushil.koirala@stud.fra-uas.de)
+📧[sushil.koirala@stud.fra-uas.de](mailto:sushil.koirala@stud.fra-uas.de)
