@@ -34,10 +34,21 @@ The dashboard system replaces outdated analog gauges in internal combustion engi
 1. Clone the repository
 2. Flash dashboard.ino to your STM32F103 board using PlatformIO or Arduino IDE.
 3. For Python Serial Monitor
-pip install pygame pyserial
-python python_serial_monitor.py
+`pip install pygame pyserial`
+`python python_serial_monitor.py`.
 
+>  **Note**: There are three distinct dashboard files:
+> - `dashboard.ino`: Main dashboard firmware used in production.
+> - `dashboard_efficiencymeter.ino`: Used for energy efficiency visualization.
+> - `dashboard_speedometer.ino`: Displays speed and distance data.
 
+## 📘 Further Reading
 
+For detailed system architecture, implementation decisions, and performance analysis, please refer to the **supporting thesis** associated with this project. A copy can be requested or accessed via the  contacting the author directly.
 
-   
+## 📩 Contact
+
+For questions, collaboration, or thesis access, feel free to contact:
+
+**Sushil Koirala**  
+📧 [sushil.koirala@stud.fra-uas.de](mailto:sushil.koirala@stud.fra-uas.de)
